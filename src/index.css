@@ -1,0 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --color-dark: #6C6C6C !important;
+  --color-orange : #FEAF00;
+  --place-holder : #CDCDCD;
+
+}

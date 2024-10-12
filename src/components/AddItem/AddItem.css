@@ -1,0 +1,99 @@
+.add{
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    
+}
+.control-img{
+    padding-top: 24px;
+}
+.section2-add{
+    padding-left: 64px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.section2-add h1{
+    padding: 76px 0 76px 0;
+    font-size: 60px;
+    font-weight: 600;
+}
+.add-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.name-price-input {
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+    
+    
+}
+.name-price-input1{
+   margin-bottom: 64px;
+}
+
+.name-price-input label , .uplo-photo label{
+    font-size: 25px;
+    color: #6C6C6C;
+    
+}
+.name-price-input input{
+    width: 100%;
+    height: 44px;
+    padding-left: 15px;
+    border: 1px solid var(--place-holder);
+    
+}
+.uplo-photo{
+    
+    padding: 0 32px;
+    
+  
+}
+.label-none{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: 1px dashed var(--place-holder);
+    width:547px;
+    height: 209px;
+}
+.label-none input{
+    display: none;
+    visibility: none;
+}
+.label-none img{
+    width: 120px;
+    
+
+}
+.btn-add{
+    margin: 0 auto;
+    padding-top: 120px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.test{
+    display: flex;
+
+}
+.btn-add input{
+    width: 199px;
+    height: 61px;
+    background-color: var(--color-orange);
+    color: white;
+    border: none;
+    font-size: 32px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+
+}

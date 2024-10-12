@@ -1,0 +1,123 @@
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #feaf00, #f8d442);
+}
+.wrapper {
+  width: 467px;
+  background-color: white;
+  color: var(--color-dark);
+  box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.img-logo {
+  text-align: center;
+  padding-top: 42px;
+}
+.wrapper h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: black !important;
+  text-align: center;
+  padding-top: 43px;
+  padding-bottom: 9px;
+}
+.wrapper p {
+  text-align: center;
+}
+.form-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+  padding-bottom: 20px;
+}
+.input-box ::placeholder,
+.name-input ::placeholder {
+  font-size: 12px;
+  padding: 15.03px;
+  font-weight: 400;
+  line-height: 14.63;
+  color: var(--place-holder);
+}
+.input-box label,
+.name-input label {
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+}
+.name-input {
+  width: 87%;
+  padding-bottom: 16px;
+}
+.name-input input {
+  width: 100% !important;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  height: 44px;
+  padding-right: 24.05px;
+}
+
+.input-box input {
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  height: 44px;
+}
+.form-input button {
+  width: 87%;
+  height: 44px;
+  background-color: var(--color-orange);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  color: white;
+  margin-bottom: 27px;
+}
+.have-account {
+  padding-bottom: 41px !important;
+}
+.orange{
+  color: var(--color-orange);
+}
+.name-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 87%;
+}
+.name-input div {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-form {
+  padding-bottom: 15px;
+}
+.upload-img {
+  width: 100px;
+  height: 100px;
+  border: 1px dashed #384eb74d;
+  border-radius: 4px;
+  background-color: #f8f8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+@media (max-width: 500px) {
+  .wrapper {
+    width: 325px;
+  }
+}
